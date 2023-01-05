@@ -23,7 +23,7 @@ import com.github.penfeizhou.animation.webp.decode.WebPDecoder;
  * @Author: pengfei.zhou
  * @CreateDate: 2020/8/21
  */
-class FrameDrawableTranscoder implements ResourceTranscoder<FrameSeqDecoder, Drawable> {
+public class FrameDrawableTranscoder implements ResourceTranscoder<FrameSeqDecoder, Drawable> {
 
     @Nullable
     @Override

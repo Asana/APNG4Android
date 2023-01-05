@@ -19,10 +19,10 @@ import java.io.IOException;
  * @Author: pengfei.zhou
  * @CreateDate: 2020/8/21
  */
-class FrameBitmapTranscoder implements ResourceTranscoder<FrameSeqDecoder, Bitmap> {
+public class FrameBitmapTranscoder implements ResourceTranscoder<FrameSeqDecoder, Bitmap> {
     private final BitmapPool bitmapPool;
 
-    FrameBitmapTranscoder(BitmapPool bitmapPool) {
+    public FrameBitmapTranscoder(BitmapPool bitmapPool) {
         this.bitmapPool = bitmapPool;
     }
 
